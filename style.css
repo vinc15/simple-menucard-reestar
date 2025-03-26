@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.section-one__navbarhyperlinks{
+    margin: 5px;
+}
+
+.section-one__navbarhyperlinks a{
+    color: skyblue;
+}
+
+.section-two{
+    text-align: center;
+}
+
+.section-prawn,.section-noodles,.section-chicken,.section-fish{
+    display: inline-block;
+    margin-top: 10px;
+    border: solid black;
+}
+
+.section-prawn__image,.section-noodles__image,.section-chicken__image,.section-fish__image{
+    height: 250px;
+    width: 260px;
+}
+
+.section-prawn__button,.section-noodles__button,.section-chicken__button,.section-fish__button{
+    border: solid black;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: beige;
+}
+
+.section-prawn__button:hover,.section-noodles__button:hover,.section-chicken__button:hover,.section-fish__button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.contact{
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: white;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.contact__table{
+    display: inline-block;
+}
+
+.contact__input{
+    margin: 5px;
+}
+
+.contact__button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+    text-align: center;
+}
+
+.contact__copyright{
+    text-align: right;
+    font-size: x-small;
+    margin-right: 10px;
+}
